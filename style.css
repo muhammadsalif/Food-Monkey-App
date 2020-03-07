@@ -1,0 +1,696 @@
+@media only screen and (min-width:320px)
+{
+    *{
+    margin: 0px;
+    padding: 0px;
+    }
+    html{
+        scroll-behavior: smooth;
+        transition: 0.6s;
+    }
+
+    header  
+    {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .headerfirstdiv
+    {
+        background-color: rgba(42, 51, 58, 1);
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+    .headerfirstdiv img
+    {
+        border-radius: 80px;
+    }
+    .headerfirstdiv h1
+    {
+        color: white;
+        font-size: 140px;
+        /* color: tomato; */
+        margin: 200px 0px 50px 0px;
+    }
+    .headerfirstdiv p
+    {
+        
+        color: wheat;
+        font-family: 'Varela Round';
+        text-transform: uppercase;
+        font-size: 35px;
+        
+        
+    }
+    
+    /********************************headerseconddiv********************************/
+    .headerseconddiv
+    {
+        background-color: rgb(210, 159, 6);
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .headerseconddiv p
+    {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Varela Round';
+        color: white;
+    }
+    
+    /*******************************Second page********************************/
+    .secondpage
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(42, 51, 58, 1);
+        /* background-color: yellowgreen; */
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        flex-direction: column;
+    }
+    /********************************secondpagefirstdiv********************************/
+    .secondpagefirstdiv
+    {
+        /* border: 4px solid red; */
+        margin: 0 auto;
+        color: white;
+        width: 80%;
+        height: 30vh;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-family: 'Varela Round';
+        font-size: 40px;
+        
+    }
+    
+    /********************************secondpageseconddiv********************************/
+    .secondpageseconddiv
+    {
+        /* border: 4px solid red; */
+        height: 40vh;
+        width: 80%;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 0 auto;
+        /* text-align: left; */
+    }
+    .secondpageseconddiv form
+    {
+        width: 100%;
+    }
+    .secondpageseconddiv form label
+    {
+        font-size: 70px;
+        font-family: 'Varela Round';
+        color: white;
+        
+    }
+    .secondpageseconddiv form label input
+    {
+        margin-top: 20px;
+        width: 100%;
+        height: 5vh;
+        font-size: 50px;
+        background-color: rgba(0,0,0,0.3);
+        color: white;
+        border: none;
+    }
+    
+    /************************************secondpagethirddiv*************************/
+    
+    
+    .secondpagethirddiv
+    {
+        height: 20vh;
+        width: 80%;
+        /* border: 3px solid red; */
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .secondpagethirddiv button
+    {
+        width: 100%;
+        height: 50%;
+        font-size: 40px;
+        border: 3px solid white;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        border-radius: 80px;
+        transition: 0.7s;
+        
+    }
+    .secondpagethirddiv button:hover
+    {
+        height: 55%;
+        transition: 0.7s ease-in-out;
+        width: 105%;
+        
+    }
+    
+     
+    
+     /************************************secondpagefourthdiv*************************/
+     
+    .secondpagefourthdiv
+    {
+        transition: 0.7s;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background-color: rgb(210, 159, 6);
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondpagefourthdiv :hover
+    {
+        /* height: 55%; */
+        transition: 0.7s ease-in-out;
+        /* width: 105%; */
+        
+    }
+    
+    .secondpagefourthdiv p
+    {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Varela Round';
+        color: white;
+    }
+    
+    /*****************************************third page ****************/
+    .thirdpagemaindiv
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(42, 51, 58, 1);
+        display: flex;
+    }
+    
+    /* ************subdiv */
+    .thirdpagesubdiv
+    {
+        width: 90%;
+        height: 94vh;
+        margin: auto auto;
+        /* border: 4px solid white; */
+    }
+    /*********************************line1  */
+    .thirdpagesubdiv .line1
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        /* border: 2px solid peru; */
+        color: white;
+    }
+    
+    .thirdpagesubdiv .line1 i 
+    {
+        font-size: 80px;
+    }
+    
+    .thirdpagesubdiv .line1 h1
+    {
+        /* font-weight: bold; */
+        font-family: 'Varela Round';
+        font-size: 50px;
+    }
+
+    /*********************************line2  */
+    .thirdpagesubdiv .line2
+    {
+        height: 28vh;
+        width:100%;
+        /* background-color: red; */
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    .thirdpagesubdiv .line2 .image
+    {
+        width: 100%;
+        height: 18vh;
+        opacity: 0.7;
+
+    }
+    .thirdpagesubdiv .line2 img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* line 2 down */
+
+    .thirdpagesubdiv .line2 .downdiv
+    {
+        display: flex;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        height: 10vh;
+        width: 100%;
+        font-family: 'Varela Round';
+        color: white;
+        background-color: black;
+    }
+    .thirdpagesubdiv .line2 .downdiv .one
+    {
+        width: 80%;
+        height: 100%;
+
+    }
+    
+    
+    .thirdpagesubdiv .line2 .sub1
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid blue; */
+
+        
+    }
+    .thirdpagesubdiv .line2 .sub1 h1
+    {
+        font-size: 50px;
+    }
+    .thirdpagesubdiv .line2 div #unique
+    {
+        font-size: 50px;
+        color: goldenrod;
+    }
+    
+    /* sub2 */
+    .thirdpagesubdiv .line2 .sub2
+    {
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid cyan; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 30px;
+    }
+    .thirdpagesubdiv .line2 .sub2 i
+    {
+        color: gold;
+        font-size: 60px;
+    }
+    
+    
+    .thirdpagesubdiv .line2 .downdiv .two
+    {
+        width: 20%;
+        height: 100%;
+        /* background-color: orange; */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .thirdpagesubdiv .line2 .downdiv .two i
+    {
+
+        font-size: 70px;
+        color: gold;
+    }
+
+    
+    
+    /*********************************line3  */
+    .thirdpagesubdiv .line3
+    {
+        height: 28vh;
+        width:100%;
+        /* background-color: red; */
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    .thirdpagesubdiv .line3 .image
+    {
+        width: 100%;
+        height: 18vh;
+        opacity: 0.7;
+    }
+    .thirdpagesubdiv .line3 img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* line 2 down */
+
+    .thirdpagesubdiv .line3 .downdiv
+    {
+        display: flex;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        height: 10vh;
+        width: 100%;
+        font-family: 'Varela Round';
+        color: white;
+        background-color: black;
+    }
+    .thirdpagesubdiv .line3 .downdiv .one
+    {
+        width: 80%;
+        height: 100%;
+
+    }
+    
+    
+    .thirdpagesubdiv .line3 .sub1
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid blue; */
+
+        
+    }
+    .thirdpagesubdiv .line3 .sub1 h1
+    {
+        font-size: 50px;
+    }
+    .thirdpagesubdiv .line3 div #unique
+    {
+        font-size: 50px;
+        color: goldenrod;
+    }
+    
+    /* sub2 */
+    .thirdpagesubdiv .line3 .sub2
+    {
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid cyan; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 30px;
+    }
+    .thirdpagesubdiv .line3 .sub2 i
+    {
+        color: gold;
+        font-size: 60px;
+    }
+    
+    
+    .thirdpagesubdiv .line3 .downdiv .two
+    {
+        width: 20%;
+        height: 100%;
+        /* background-color: orange; */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .thirdpagesubdiv .line3 .downdiv .two i
+    {
+
+        font-size: 70px;
+        color: gold;
+    }
+    
+    /*********************************line4  */
+    .thirdpagesubdiv .line4
+    {
+        height: 28vh;
+        width:100%;
+        /* background-color: red; */
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    .thirdpagesubdiv .line4 .image
+    {
+        width: 100%;
+        height: 18vh;
+        opacity: 0.7;
+    }
+    .thirdpagesubdiv .line4 img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* line 2 down */
+
+    .thirdpagesubdiv .line4 .downdiv
+    {
+        display: flex;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        height: 10vh;
+        width: 100%;
+        font-family: 'Varela Round';
+        color: white;
+        background-color: black;
+    }
+    .thirdpagesubdiv .line4 .downdiv .one
+    {
+        width: 80%;
+        height: 100%;
+
+    }
+    
+    
+    .thirdpagesubdiv .line4 .sub1
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid blue; */
+
+        
+    }
+    .thirdpagesubdiv .line4 .sub1 h1
+    {
+        font-size: 50px;
+    }
+    .thirdpagesubdiv .line4 div #unique
+    {
+        font-size: 50px;
+        color: goldenrod;
+    }
+    
+    /* sub2 */
+    .thirdpagesubdiv .line4 .sub2
+    {
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid cyan; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 30px;
+    }
+    .thirdpagesubdiv .line4 .sub2 i
+    {
+        color: gold;
+        font-size: 60px;
+    }
+    
+    
+    .thirdpagesubdiv .line4 .downdiv .two
+    {
+        width: 20%;
+        height: 100%;
+        /* background-color: orange; */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .thirdpagesubdiv .line4 .downdiv .two i
+    {
+
+        font-size: 70px;
+        color: gold;
+    }
+    
+    /* *******************************************Fourth page */
+    /* fourth page main div */
+    .fourthpagemaindiv
+    {
+        /* background-color: yellow; */
+        width: 100%;
+        height: 100vh;
+    }
+
+    /* fourthpagedivone */
+    .fourthpagemaindiv .fourthpagedivone
+    {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: white;
+        /* background-color: red; */
+    }
+    
+    .fourthpagemaindiv .fourthpagedivone .fas
+    {
+        font-size: 60px;
+        margin-left: 50px;
+        /* background-color: blue; */
+    }
+    .fourthpagemaindiv .fourthpagedivone h1
+    {
+        font-family: 'Varela Round';
+        font-size: 50px;
+
+    }
+    .fourthpagemaindiv .fourthpagedivone .far
+    {
+        font-size: 60px;
+        margin-right: 50px;
+        /* background-color: blue; */
+
+    }
+
+
+    
+    /************************** fourthpagedivtwo */
+    .fourthpagemaindiv .fourthpagedivtwo
+    {
+        opacity: 0.8    ;
+        color: white;
+        width: 100%;
+        height: 15vh;
+        background-color: black;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Varela Round';
+        font-size: 30px;
+        border: none;
+    }
+    .fourthpagemaindiv .fourthpagedivtwo p
+    {
+        font-size: 60px;
+        color: rgb(210, 159, 6  );
+    }
+    
+    /* fourthpagedivthree */
+    .fourthpagemaindiv .fourthpagedivthree
+    {
+        opacity: 0.7;
+        width: 100%;
+        margin: 0 auto;
+        height: 5vh;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 40px;
+        background-color: black;
+        color: white;
+        font-family: 'Varela Round';
+    }
+    .fourthpagemaindiv .fourthpagedivthree i
+    {
+        color: rgb(210, 159, 6);
+    }
+    
+    /* fourthpagedivfourth */
+    .fourthpagemaindiv .fourthpagedivfourth
+    {
+        width: 100%;
+        height: 60vh;
+        /* background-color: gold; */
+    }
+    .fourthpagemaindiv .fourthpagedivfourth iframe
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    /* fourthpagedivfifth */
+    .fourthpagemaindiv .fourthpagedivfifth
+    {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(210, 159, 6);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-family: 'Varela Round';
+        text-transform: uppercase;
+        
+    }
+    .fourthpagemaindiv .fourthpagedivfifth i
+    {
+        font-size: 60px;
+        margin-right: 40px;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
